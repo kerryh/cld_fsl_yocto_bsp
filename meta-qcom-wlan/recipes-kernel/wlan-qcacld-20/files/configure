@@ -1,0 +1,7 @@
+### move patch file to qcacld
+mv drivers/patches/patch-qcacld-20-10079 qcacld-2.0-1.0.0.79/
+cd qcacld-2.0-1.0.0.79/
+git apply patch-qcacld-20-10079
+### qcacld to drivers
+cd ..
+mv qcacld-2.0-1.0.0.79 drivers
