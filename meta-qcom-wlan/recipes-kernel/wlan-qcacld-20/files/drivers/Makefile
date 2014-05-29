@@ -17,7 +17,7 @@ KBUILD_OPTIONS += WLAN_OPEN_SOURCE=$(WLAN_OPEN_SOURCE)
 KBUILD_OPTIONS += $(KBUILD_EXTRA) # Extra config if any
 
 export WLAN_DRIVER_TOPDIR=${ATH_TOPDIR}/drivers
-export FW_WLAN_NAME="qcacld-2.0-1.0.0.79"
+export FW_WLAN_NAME="qcacld-2.0-1.0.0.105"
 
 #################################################################################################################################
 all: driver_clean driver_build

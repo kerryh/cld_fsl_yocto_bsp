@@ -2,6 +2,7 @@
 # Main Makefile
 #
 export ATH_TOPDIR=$(shell pwd)
+
 export BOARD_TYPE=imx6
 export KERNELPATH=${ATH_TOPDIR}/../../linux-imx/3.5.7-1.0.0-r32.5/git
 export KERNELARCH=arm
@@ -11,7 +12,7 @@ export MAKEARCH=make ARCH=$(KERNELARCH) CROSS_COMPILE=$(TOOLPREFIX)
 export INSTALL_ROOT=${ATH_TOPDIR}/rootfs-$(BOARD_TYPE).build
 export ROOTFS_TOPDIR=${ATH_TOPDIR}/rootfs
 export WLAN_DRIVER_TOPDIR=${ATH_TOPDIR}/drivers
-export FW_WLAN_NAME="qcacld-2.0-1.0.0.79"
+export FW_WLAN_NAME="qcacld-2.0-1.0.0.105"
 export CONFIG_ROME_IF=pci
 export ATH_DRIVER_TOPDIR=${ATH_TOPDIR}/drivers
 

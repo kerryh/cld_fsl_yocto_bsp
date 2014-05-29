@@ -1,0 +1,2 @@
+### wpa_supplicant to apps folder
+cp -avr apps/wpa_supplicant_8 apps/wpa_supplicant
